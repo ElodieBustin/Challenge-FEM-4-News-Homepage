@@ -72,13 +72,6 @@
           animation: fade-out 300ms ease-in-out forwards;
 }
 
-body {
-  font-family: 'Inter', sans-serif;
-  font-size: 15px;
-  padding: 1.5rem;
-  height: 100vh;
-}
-
 .header__nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -173,6 +166,46 @@ body {
   .hide-for-desktop {
     display: none;
   }
+}
+
+.main {
+  margin-top: 1.8rem;
+}
+
+.main__article .image-container img {
+  width: 100%;
+}
+
+.main__article h1 {
+  font-weight: 800;
+  font-size: 3rem;
+  margin: 1.5rem 0;
+}
+
+.main__article p {
+  color: #5d5f79;
+  line-height: 25px;
+  font-size: 1rem;
+}
+
+.main__article .button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #f15e50;
+  color: #fffdfa;
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+  padding: 1rem 1.8rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  padding: 1.5rem;
+  height: 100vh;
+  max-width: 375px;
 }
 
 .hidden {
