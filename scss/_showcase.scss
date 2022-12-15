@@ -1,0 +1,40 @@
+.showcase{
+    margin-top: 2.5rem;
+    padding-bottom: 5rem;
+
+    &__container{
+        display: flex;
+        margin-bottom: 1.5rem;
+        .image-container{
+            width: 30%;
+            > img{
+                width: 100%;
+            }
+        }
+
+        .text-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+            margin-left: 1.1rem;
+            width: 70%;
+            .number{
+                font-size: 1.8rem;
+                font-weight: 800;
+                color: $grayishBlue;
+            }
+
+            h4{
+                font-weight: 800;
+                font-size: 1rem;
+            }
+
+            p{
+                color: $darkGrayishBlue;
+                line-height: 25px;
+
+            }
+        }
+    }
+}
