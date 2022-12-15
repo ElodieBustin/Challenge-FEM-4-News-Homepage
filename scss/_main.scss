@@ -5,6 +5,9 @@
         .image-container{
             img{
                 width: 100%;
+                @include breakpoint-up(desktop){
+                    content: url('/images/image-web-3-desktop.jpg');
+                }
             }
         }
         h1{

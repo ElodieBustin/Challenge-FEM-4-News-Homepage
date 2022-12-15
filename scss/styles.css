@@ -125,10 +125,6 @@
   position: relative;
 }
 
-.header__nav__links a {
-  text-decoration: none;
-}
-
 .header__nav__links--container {
   position: absolute;
   right: 0;
@@ -156,6 +152,23 @@
   font-size: 1.1rem;
 }
 
+@media (min-width: 700px) {
+  .header__nav__links a {
+    text-decoration: none;
+    color: #5d5f79;
+  }
+  .header__nav__links a:not(:last-child) {
+    margin-right: 2.5rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .header {
+    padding-top: 2rem;
+    margin-bottom: 3.8rem;
+  }
+}
+
 @media (max-width: 699px) {
   .hide-for-mobile {
     display: none;
@@ -174,6 +187,12 @@
 
 .main__article .image-container img {
   width: 100%;
+}
+
+@media (min-width: 700px) {
+  .main__article .image-container img {
+    content: url("/images/image-web-3-desktop.jpg");
+  }
 }
 
 .main__article h1 {
@@ -292,12 +311,28 @@
   line-height: 25px;
 }
 
+@media (min-width: 700px) {
+  .showcase {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 5rem;
+  }
+}
+
 body {
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   padding: 1.5rem;
   height: 100vh;
   max-width: 375px;
+}
+
+@media (min-width: 700px) {
+  body {
+    max-width: 1440px;
+    margin: auto;
+  }
 }
 
 .hidden {
