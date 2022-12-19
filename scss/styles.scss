@@ -15,7 +15,9 @@ body{
 
     @include breakpoint-up(desktop){
         max-width: 1440px;
+        height: 100vh;
         margin: auto;
+        padding: 0 10rem;
     }
 }
 

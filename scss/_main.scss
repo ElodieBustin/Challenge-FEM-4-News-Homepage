@@ -7,6 +7,7 @@
                 width: 100%;
                 @include breakpoint-up(desktop){
                     content: url('/images/image-web-3-desktop.jpg');
+                    height: 300px;
                 }
             }
         }
@@ -35,4 +36,47 @@
             letter-spacing: 4px;
         }
     }
+
+    @include breakpoint-up(desktop){
+        .desktop-container{
+            display: flex;
+
+            .main__article{
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .container2{
+                    display: inline-flex;
+                    gap: 25px;
+                    padding-top: 2rem;
+                    height: 100%;
+
+                    h1{
+                        margin: 0;
+                        flex: 1;
+                        font-size: 3.8rem;
+                    }
+                
+                    .container3{
+                        flex: 1;
+                        position: relative;
+
+                        p{
+                            padding-right: 1rem;
+                        }
+
+                        .button{
+                            margin: 0;
+                            position: absolute;
+                            bottom: 0;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
 }
