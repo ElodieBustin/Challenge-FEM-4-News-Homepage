@@ -25,7 +25,12 @@
 
             @include breakpoint-up(desktop){
                 font-size: 1.1rem;
-            }           
+            }
+            
+            &:hover{
+                color: $softOrange;
+                cursor: pointer;
+            }
         }
 
         p{

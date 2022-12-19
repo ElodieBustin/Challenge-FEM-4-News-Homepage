@@ -71,6 +71,11 @@
                     text-decoration: none;
                     color: $darkGrayishBlue;
 
+                    &:hover{
+                        color: $softOrange;
+                        cursor: pointer;
+                    }
+
                     &:not(:last-child){
                         margin-right: 2.5rem;
                     }   

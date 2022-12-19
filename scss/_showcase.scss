@@ -29,6 +29,11 @@
             h4{
                 font-weight: 800;
                 font-size: 1rem;
+
+                &:hover{
+                    color: $softOrange;
+                    cursor: pointer;
+                }
             }
 
             p{

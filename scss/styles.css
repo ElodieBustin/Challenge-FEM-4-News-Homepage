@@ -157,6 +157,10 @@
     text-decoration: none;
     color: #5d5f79;
   }
+  .header__nav__links a:hover {
+    color: #e9ab53;
+    cursor: pointer;
+  }
   .header__nav__links a:not(:last-child) {
     margin-right: 2.5rem;
   }
@@ -268,6 +272,9 @@
     position: absolute;
     bottom: 0;
   }
+  .main .desktop-container .main__article .container2 .container3 .button:hover {
+    background-color: #00001a;
+  }
 }
 
 .aside {
@@ -304,6 +311,11 @@
   .aside__new h3 {
     font-size: 1.1rem;
   }
+}
+
+.aside__new h3:hover {
+  color: #e9ab53;
+  cursor: pointer;
 }
 
 .aside__new p {
@@ -383,6 +395,11 @@
 .showcase__container .text-container h4 {
   font-weight: 800;
   font-size: 1rem;
+}
+
+.showcase__container .text-container h4:hover {
+  color: #e9ab53;
+  cursor: pointer;
 }
 
 .showcase__container .text-container p {
