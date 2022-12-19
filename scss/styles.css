@@ -103,22 +103,8 @@
   margin-bottom: 5px;
 }
 
-.header__nav__menu.open > span:first-child {
-  -webkit-transform: rotate(28deg);
-          transform: rotate(28deg);
-  height: 0.2rem;
-  width: 80%;
-}
-
-.header__nav__menu.open > span:nth-child(2) {
-  opacity: 0;
-}
-
-.header__nav__menu.open > span:last-child {
-  -webkit-transform: rotate(-34deg);
-          transform: rotate(-34deg);
-  height: 0.2rem;
-  width: 80%;
+.header__nav__menu.open {
+  content: url("/images/icon-menu-close.svg");
 }
 
 .header__nav__links {
